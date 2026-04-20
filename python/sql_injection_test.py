@@ -39,7 +39,6 @@ def baglanti_kur(config: dict):
 # ─────────────────────────────────────────────────────────────────────────────
 def musteri_sorgula_SAVUNMASIZ(conn, musteri_ulke: str):
     """
-    !! SADECE DEMO AMAÇLI - GERÇEK KODDA KULLANMAYIN !!
 
     Giriş değerini doğrudan SQL string'e yapıştırır.
     Saldırgan değeri:  ' OR '1'='1' --
